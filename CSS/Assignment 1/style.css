@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+@font-face{
+    font-family: fbfont;
+    src: url(fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+body{
+    /* border-style: solid; */
+    background-color: #f0f2f5;
+}
+.main{
+    /* border-style: solid; */
+    height: 700px;
+    background-color: #f0f2f5;
+}
+.main2{
+    /* border-style: solid; */
+    height: 500px;
+    margin-top: 204px;
+    margin-left: 6px;
+}
+.content{
+    /* border-style: solid; */
+    height: 450px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+img{
+    height: 106px;
+    margin: -28px;
+}
+.logoandtext{
+    /* border-style: solid; */
+    width: 540px;
+    margin: 70px;
+    margin-left: 220px;
+}
+.logo{
+    /* border-style: solid; */
+    height: 65px;
+    width: 460px;
+}
+.text{
+    /* border-style: solid; */
+    font-family: fbfont;
+    font-size: 28px;
+    width: 460px;
+}
+/* .formdiv{
+    border-style: solid;
+    height: 349.83px;
+    width: 396px;
+    margin: -31vh 775px;
+} */
+form{
+    background-color: white;
+    position: absolute;
+    width: 410px;
+    height: 312.83px;
+    padding: 10px 5px 20px 5px;
+    margin: -29vh 775px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    /* border-style: solid; */
+}
+.inputtype{
+    display: block;
+    background-color: white;
+    border: 1px solid #dddfe2;
+    margin: auto;
+    border-radius: 6px;
+    width: 364px;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+button{
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    width: 410px;
+    line-height: 48px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.f-psw{
+    font-size: 14px;
+    color: #1877f2;
+    font-weight: 500;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    width: 200px;
+    padding-left: 75px;
+    font-family: sans-serif;
+}
+.classline{
+    border-top: 1px solid #dddfe2
+}
+.c-new{
+    background-color: #42b72a;
+    width: 226px;
+    margin: 7px;
+    margin-left: 96px;
+    text-align: center;
+}
+.endtext{
+    /* border-style: solid; */
+    width: 314px;
+    margin: 170px 825px;
+    font-family: fbfont;
+}
+.endtext a{
+    color: black;
+    font-weight: bold;
+}
+.edit{
+    margin-left: 6.5px;
+    width: 396px;
+}
+.inputtype:focus{
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 2px 1;
+}
+.a{
+    color: white;
+}
+.f-psw:hover{
+    text-decoration: underline;
+}
+.create:hover{
+    text-decoration: underline;
+}

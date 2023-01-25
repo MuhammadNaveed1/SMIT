@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: fbfont;
+    src: url(Font/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+    
+}
+form{
+    background-color: white;
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.inputtype{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    width: 200px;
+    height: 16px;
+    padding: 15px 100px 15px 10px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+}
+.logbutton{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 312px;
+    display: block;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.crbutton{
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    margin: auto;
+    width: 225px;
+    display: block;
+    border-radius: 6px;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.f-pass{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    padding-left: 80px;
+}
+.line{
+    border-top: 1px solid #dadde1;
+}
+.endlink h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    padding: 130px 890px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.endlink h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logoetc{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+}
+p{
+    font-size: 20px;
+    font-family: fbfont;
+    margin-left: 25px;
+}

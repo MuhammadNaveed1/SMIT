@@ -1,0 +1,946 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Philosopher;
+    src: url(font/Philosopher-Bold.ttf);
+}
+@font-face {
+    font-family: josef;
+    src: url(font/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: plight;
+    src: url(font/JosefinSans-Light.ttf);
+}
+@font-face{
+    font-family: philosopherlight;
+    src: url(font/Philosopher-Regular.ttf);
+}
+@font-face {
+    font-family: gilda display;
+    src: url(font/GildaDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: dosis;
+    src: url(font/Dosis-VariableFont_wght.ttf);
+}
+
+/* HEADER START */
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+background-color: #222222;
+border-bottom: 2px solid;
+color: #ED1C24;
+}
+.navlist{
+width: 70%;
+height: 75px;
+display: flex;
+align-items: center;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.logo img:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+.navlist li{
+    display: inline-block;
+    padding: 35px 0px 0px 45px
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    font-family: philosopher;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
+}
+#home{
+    color: #ED1C24;
+}
+.navlist li a:hover{
+    color: #ED1C24;
+}
+.rightnav{
+    background-color: #222222;
+    width: 30%;
+    text-align: right;
+}
+.btn{
+    font-family: philophoser;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    border:2px solid #ED1C24;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 50px 8px 50px;
+    margin: 30px 100px 0 0;
+    background-color: #ED1C24;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+/* HEADER END */
+
+@media screen and (max-width:1150px) {
+    header {
+        position: relative;
+    }
+
+    .navlist li {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .navlist li a {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 0;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:772px) {
+    header {
+        height: 120px;
+        position: relative;
+    }
+
+    .navlist li {
+        margin-top: 100px;
+        padding: 4px;
+    }
+
+    .navlist li a {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .rightnav {
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        width: 72px;
+        width: 100%;
+    }
+
+    .btn {
+        bottom: 0;
+        font-size: 10px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:455px) {
+    .navlist li a {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .navlist li a {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:354px) {
+    .navlist li a {
+        font-size: 3px;
+    }
+}
+
+
+/* SECTION_ONE START */
+
+.secone{
+    border-bottom: 2px solid #ED1C24;
+    width: 100%;
+    height: 100%;
+    background-image: url(image/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    border-bottom: 2px solid #ED1C24;
+}
+#lineone{
+    font-family: josef;
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+#middlelogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#linetwo{
+    width: 100%;
+    font-family: josef;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    letter-spacing: 10px;
+    font-weight: 200;
+}
+#linethree{
+    font-size: 40px;
+    font-weight: 200;
+    font-family: philosopher;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+#linefour{
+    font-family: plight;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.restaurantlogo{
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.logoone img{
+    width: 200px;
+    padding: 53px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+.logotwo img{
+    width: 200px;
+    padding: 58px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+.logothree img{
+    width: 200px;
+    padding: 49px;
+    background-color: #FFFFFFE0;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+.logoboxes{
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #lineone{
+        font-size: 70px;
+    }
+    #linethree{
+        font-size: 30px;
+    }
+    #linetwo{
+        font-size: 15px;
+    }
+}
+ @media screen and (max-width:600px){
+    #lineone{
+        font-size: 20px;
+    }
+    #middlelogo img{
+        width: 250px;
+    }
+    #linetwo{
+        font-size: 13px;
+    }
+    #linethree{
+        font-size: 20px;
+    }
+    #linefour{
+        font-size: 14px;
+    }
+
+    .logoboxes{
+        width: 100%;
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .logoone img{
+        padding: 30px;
+    }
+    .logotwo img{
+        padding: 30px;
+    }
+    .logothree img{
+        padding: 30px;
+    }
+ }
+
+ @media screen and (max-width:350px){
+    .logoone img{
+        padding: 10px;
+        width: 120px;
+    }
+    .logotwo img{
+        padding: 10px;
+        width: 120px;
+    }
+    .logothree img{
+        padding: 10px;
+        width: 120px;
+    }
+ }
+
+ /* SECONE END */
+
+
+
+
+ /* SECTWO START */
+ .sectwo{
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #ED1C24;
+    background-color: #222222;
+ }
+ .tower{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+ .tower img{
+    width: 20%;
+    margin-top: 50px;
+ }
+ .secondmiddlelogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+ }
+ .secondmiddlelogo img{
+    width: 25%;
+ }
+.sectwoh1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #ED1C24;
+    font-family: philosopherlight;
+}
+.sectwoline1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: dosis;
+    color: white;
+    margin-top: 5px;
+}
+.locationdivone{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.locationpicone{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 4px 4px 4px 4px;
+    width: 400px;
+    height: 75%;
+    margin: auto 10px;
+}
+.locationpicone img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.locationpictwo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 4px 4px 4px 4px;
+    width: 400px;
+    height: 75%;
+    margin: auto 10px;
+}
+.locationpictwo img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.locationpicthree{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 4px 4px 4px 4px;
+    width: 400px;
+    height: 75%;
+    margin: auto 10px;
+}
+.locationpicthree img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.location{
+    position: absolute;
+    top: 15%;
+
+}
+.locationheading{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: gilda display;
+    font-size: 20px;
+    top: 35%;
+    font-weight: bold;
+}
+.locationtext{
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    color: white;
+    font-family: dosis;
+}
+.locationno{
+    position: absolute;
+    top: 62%;
+    color: white;
+    font-family: dosis;
+    font-weight: bold;
+}
+.hrr{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hr{
+    border: 1px solid #818181;
+    width: 75%;
+}
+.sectwoh2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #ED1C24;
+    font-family: philosopherlight;
+    margin-top: 75px;
+}
+.hrr2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.hr2{
+    border: 1px solid white;
+    width: 14%;
+    margin-top: 10px;
+}
+.sectwoh3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #ED1C24;
+    font-family: philosopherlight;
+    margin-top: 75px;
+}
+.locationdivthree{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.locationpicseven{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 4px 4px 4px 4px;
+    width: 85%;
+}
+.locationpicseven img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.locationheadingseven{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: gilda display;
+    font-size: 30px;
+    top: 35%;
+    font-weight: bold;
+}
+.locationtextseven{
+    position: absolute;
+    top: 55%;
+    color: white;
+    font-family: dosis;
+    font-size: 20px;
+    text-align: center;
+}
+.locationnoseven{
+    position: absolute;
+    top: 62%;
+    color: white;
+    font-family: dosis;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sectwoh4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: #ED1C24;
+    font-family: philosopherlight;
+    margin-top: 75px;
+}
+.sectwolinetwo{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: dosis;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.hrr3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.hr3{
+    border: 1px solid white;
+    width: 12%;
+}
+
+
+
+.locationdivfour{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lastlocationone{
+    border: 3px solid #ED1C24;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    margin: auto 25px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.lastlocationtwo{
+    border: 3px solid #ED1C24;
+    border-radius: 4px 4px 4px 4px;
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    margin: auto 25px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.locationdivfive{
+    margin-bottom: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.locationicon img{
+    margin-top: 40px;
+}
+
+@media screen and (max-width:1500px){
+    .locationno{
+        top: 70%;
+    }
+    .locationtextseven{
+        top: 58%;
+    }
+    .locationnoseven{
+        top: 70%;
+    }
+    #locationseven{
+        top: 7%;
+    }
+}
+@media screen and (max-width:1275px){
+    .hrr{
+        margin-top: 230px;
+    }
+    .hrr2{
+       margin-bottom: 10px;
+    }
+    .locationpicone {
+        margin-top: 10px;
+    }
+    .locationpictwo{
+        margin-top: 10px;
+    }
+    .locationpicthree{
+        margin-top: 10px;
+    }
+    .sectwoh3{
+        margin-top: 28%;
+    }
+}
+@media screen and (max-width:990px){
+    .tower img{
+        width: 30%;
+    }
+    .secondmiddlelogo img{
+        width: 40%;
+    }
+    .sectwoh1{
+        font-size: 40px;
+    }
+    .sectwoh2{
+        font-size: 40px;
+    }
+    .sectwoh3{
+        font-size: 40px;
+    }
+    .sectwoh4{
+        font-size: 40px;
+    }
+    .sectwolinetwo{
+        font-size: 20px;
+    }
+    #locationseven{
+        top: 3%;
+    }
+}
+@media screen and (max-width:850px){
+    .locationpicone{
+        width: 80%;
+        height: 200px;
+        border: 4px solid white;
+    }
+    .locationpictwo{
+        width: 80%;
+        height: 200px;
+        border: 4px solid white;
+    }
+    .locationpicthree{
+        width: 80%;
+        height: 200px;
+        border: 4px solid white;
+    }
+    .hrr{
+        margin-top: 400px;
+    }
+    .sectwoh3{
+        margin-top: 400px;
+    }
+    .sectwoh1{
+        font-size: 25px;
+    }
+    .sectwoline1{
+        text-align: center;
+    }
+    .sectwoh2{
+        font-size: 30px;
+    }
+    .sectwoh3{
+        font-size: 30px;
+    }
+    .sectwph4{
+        font-size: 30px;
+    }
+    .locationheadingseven{
+        font-size: 20px;
+    }
+    .locationtextseven{
+        font-size: 16px;
+    }
+    .locationnoseven{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:565px) {
+    .tower img{
+        width: 60%;
+    }
+    .secondmiddlelogo img{
+        width: 75%;
+    }
+    .sectwoh1{
+        font-size: 20px;
+    }
+    .sectwoh2{
+        font-size: 25px;
+    }
+    .sectwoh3{
+        font-size: 25px;
+    }
+    .sectwoh4{
+        font-size: 25px;
+    }
+    .sectwoline1{
+        font-size: 14px;
+    }
+    .locationheading{
+        font-size: 20px;
+    }
+    .locationtext{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .locationno{
+        margin: 20px;
+        font-size: 16px;
+    }
+    .locationpicseven{
+        height: 150px;
+    }
+    .locationheadingseven{
+        font-size: 20px;
+    }
+    .locationtextseven{
+    font-size: 14px;
+    top: 97px;
+    }
+    .locationnoseven{
+        top: 125px;
+        font-size: 14px;
+    }
+}
+/* SECTWO END */
+
+
+/* FOOTER START */
+.footer{
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fboxone{
+    margin-top: 50px;
+    width: 450px;
+}
+.fboxone img{
+    cursor: pointer;
+}
+.fboxone p{
+    color: white;
+    font-family: dosis;
+}
+.fboxtwo{
+    margin-top: 50px;
+    width: 300px;
+}
+.fboxtwo p{
+    font-family: philosopher;
+    color: #E1E1E1;
+    font-size: 24px;
+}
+.fboxtwo hr{
+    width: 70%;
+    margin-top: 5px;
+}
+.quicklinks li{
+    list-style: none;
+    margin-top: 5px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: dosis;
+}
+li a:hover{
+    color: red;
+}
+.fboxthree{
+    margin-top: 50px;
+    width: 300px;
+    position: relative;
+}
+.fp1{
+    color: #E1E1E1;
+    font-size: 24px;
+    font-family: philosopher;
+}
+.fboxthree hr{
+    width: 70%;
+}
+.fp2{
+    color: #E1E1E1;
+    font-size: 22px;
+    font-family: philosopher;
+}
+.contactus li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.contactus li a{
+    color: white;
+    text-decoration: none;
+    font-family: dosis;
+}
+.contactus li a:hover{
+    color: #ED1C24;
+}
+.fpic1{
+    position: absolute;
+    top: 62px;
+    cursor: pointer;
+}
+.fpic2{
+    position: absolute;
+    top: 87px;
+    cursor: pointer;
+}
+.fpic3{
+    position: absolute;
+    top: 112px;
+    cursor: pointer;
+}
+.fpic4{
+    position: absolute;
+    top: 137px;
+    cursor: pointer;
+}
+.fpic5{
+    position: absolute;
+    top: 162px;
+    cursor: pointer;
+}
+.fpic6{
+    position: absolute;
+    top: 187px;
+    cursor: pointer;
+}
+.fboxfour{
+    margin-top: 50px;
+    width: 300px;
+}
+.fboxfour p{
+    font-size: 24px;
+    color: #E1E1E1;
+}
+.fboxfour hr{
+    width: 70%;
+}
+.socialicon li{
+    display: inline-block;
+    margin-top: 25px;
+}
+.googleplay{
+    margin-top: 20px;
+    width: 120px;
+    height: 65px;
+    cursor: pointer;
+}
+.appstore{
+    width: 108px;
+    height: 46px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1350px){
+    .footer{
+        justify-content:space-between;
+    }
+    .fboxone{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    .fboxone{
+        width: 100%;
+    }
+    .fboxtwo{
+        width: 100%;
+    }
+    .fboxthree{
+        width: 100%;
+    }
+    .fboxfour{
+        width: 100%;
+    }
+}
+@media screen and (max-width:225px){
+    .fp2{
+        font-size: 14px;
+    }
+    .contactus li{
+        margin-top: 13px;
+    }
+}
+/* FOOTER END */
+

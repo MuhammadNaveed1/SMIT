@@ -1,0 +1,1 @@
+alert("Welcome to Salt'n Pepper")
