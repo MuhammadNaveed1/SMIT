@@ -29,3 +29,11 @@
 // document.write(" </br > Value after decrement is: " + num);
 // num = num % 3;
 // document.write(" </br > The remainder is : " + num);
+
+// Exercise 4
+// var ticketPrice = 350;
+// var fiveTicketPrice = 350 * 5;
+// document.write("Total cost to buy 5 tickets to a movie is " + fiveTicketPrice + "PKR");
+
+// Exercise 5
+// document.write("Table of 9 </br >" + "9x1=" + 9 * 1 + "</br > 9x2=" + 9 * 2 + "</br > 9x3=" + 9 * 3 + "</br > 9x4=" + 9 *4 + "</br > 9x5=" + 9 * 5 + "</br > 9x6=" + 9 * 6 + "</br > 9x7=" + 9 * 7 + "</br > 9x8=" + 9 * 8 + "</br > 9x9=" + 9 * 9 + "</br > 9x10=" + 9 * 10);
