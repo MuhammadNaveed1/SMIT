@@ -55,10 +55,59 @@
 // document.write("</br > Price of item 2 is " + item2);
 // document.write("</br > Quantity of item 2 is " + ordQItem2);
 // document.write("</br > Shipping Charges " + shippingCharges);
-// // document.write("</br > Total cost of your order is " + (item1 + item1 + item1 + item2 + item2 + item2 + item2 + item2 + item2 + shippingCharges));
+// document.write("</br > Total cost of your order is " + (item1 + item1 + item1 + item2 + item2 + item2 + item2 + item2 + item2 + shippingCharges));
 
 // // OR
 
 // var item1Cost = item1 * ordQItem1;
 // var item2Cost = item2 * ordQItem2;
 // document.write("</br > Total cost of your order is " + (item1Cost + item2Cost + shippingCharges));
+
+// Exercise 8
+// var totalMarks = 950;
+// var obtainedByStudents = 825;
+// document.write("Total marks: " + totalMarks);
+// document.write("</br > Marks obtained: " + obtainedByStudents);
+// document.write("</br > Percentage: " + obtainedByStudents / totalMarks * 100);
+
+// Exercise 9
+// var usdIntoPkr = 277;
+// var riyalIntoPkr = 74;
+// var usdAmount = 10;
+// var riyalAmount = 25;
+// var totalCurrency = usdIntoPkr * usdAmount + riyalIntoPkr * riyalAmount;
+// document.write("Total Currency in PKR: " + totalCurrency);
+
+// Exercise 10
+// var num = 77;
+// num = ((num + 5) * 10) / 2;
+// alert(num);
+
+// Exercise 11
+// var currentYear = 2023;
+// var birthYear = 1995;
+// document.write("<h1>" + " Age Calculator " + "</h1>");
+// document.write("<br /> Current Year: " + currentYear);
+// document.write("<br /> Birth Year: " + birthYear);
+// document.write("<br /> Your Age is: " + (currentYear - birthYear));
+
+// Exercise 12
+// var radius = 20;
+// var payee = 3.142;
+// document.write("<h1>" + " The Geometrizer " + "</h1>");
+// document.write("Radius of a circle: " + radius);
+// document.write("<br /> The circumference is: " + 2 * payee * radius );
+// document.write("<br /> The area is: " + payee * radius * radius);
+
+// // Exercise 13
+// var snack = "Lays";
+// var currentAge = 16;
+// var maximumAge = 80;
+// var perDaySnack = 2;
+// var total = (maximumAge - currentAge) * perDaySnack;
+// document.write("<h1>" + "The Lifetime Supply Calculator" + "</h1>");
+// document.write("Favourtie Snack: " + snack);
+// document.write("<br /> Current Age: " + currentAge);
+// document.write("<br /> Estimated Maximum Age: " + maximumAge);
+// document.write("<br /> Amount of snacks per day: " + perDaySnack);
+// document.write("<br /> You will need " + total + " " + snack + " " + "to last you until the ripe old age of " + maximumAge);
