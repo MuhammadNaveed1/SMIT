@@ -40,8 +40,8 @@
 // document.write(num * 1 + "<br />" + num * 2 + "<br />" + num * 3 + "<br />" + num * 4 + "<br />" + num * 5 + "<br />" + num * 6 + "<br />" + num * 7 + "<br />" + num * 8 + "<br />" + num * 9 + "<br />" + num * 10);
 
 //Exercise 6
-// var sub1 = "HTML"; var sub2 = "CSS"; var sub3 = "JS";
-// var sub1Marks = 84; var sub2Marks = 75; var sub3Marks = 95;
+// var sub1 = prompt("Enter subject one name"); var sub2 = prompt("Enter subject two name"); var sub3 = prompt("Enter subject three name");
+// var sub1Marks = +prompt("Enter subject one marks"); var sub2Marks = +prompt("Enter subject two marks"); var sub3Marks = +prompt("Enter subject three marks");
 // var totalMarks = 100;
 // document.write("<table cellpadding = '10px' align = 'center'>");
 //      document.write("<tr>");
