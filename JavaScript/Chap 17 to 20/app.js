@@ -17,3 +17,29 @@
 // for (var i = 1; i <= loopLength; i++) {
 //     document.write(num + " x " + i + " = " + num * i + "<br />");
 // }
+
+// Exercise 5
+// var fruits = ["apple", "banana", "orange", "strawberry"];
+// // document.write(fruits[0] + "<br />" + fruits[1] + "<br />" + fruits[2] + "<br />" + fruits[3] + "<br /> <br />");
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write(fruits[i] + "<br />");
+// }
+// document.write("<br />")
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br />");
+// }
+
+// // Exercise 6
+// document.write("<h1>" + "Counting <br />" + "</h1>")
+// for (var i = 0; i <= 15; i++) {
+//     document.write(i + ",");
+// }
+// document.write("<h1>" + "<br /> Reverse counting <br />" + "</h1>");
+// for (var i = 10; i >= 1; i--) {
+//     document.write(i + ",");
+// }
+// document.write("<h1>" + "<br /> Even <br />" + "</h1>");
+// for (var i = 0; i <= 10; i++) {
+//     document.write(i * 2 + ",");
+// }
+// document.write("<h1>" + "Odd" + "</h1>")
