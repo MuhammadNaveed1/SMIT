@@ -29,7 +29,7 @@
 //     document.write("Element at index " + i + " is " + fruits[i] + "<br />");
 // }
 
-// // Exercise 6
+// // // Exercise 6
 // document.write("<h1>" + "Counting <br />" + "</h1>")
 // for (var i = 0; i <= 15; i++) {
 //     document.write(i + ",");
@@ -39,7 +39,60 @@
 //     document.write(i + ",");
 // }
 // document.write("<h1>" + "<br /> Even <br />" + "</h1>");
-// for (var i = 0; i <= 10; i++) {
-//     document.write(i * 2 + ",");
+// for (var i = 0; i <= 20; i++) {
+//     if (i % 2 == 0) {
+//         document.write(i + ",");
+//     }
 // }
 // document.write("<h1>" + "Odd" + "</h1>")
+// for (var i = 1; i <= 19; i++) {
+//     if (i % 2 == 1) {
+//         document.write(i + ",");
+//     }
+// }
+// document.write("<h1>" + "Series <br />" + "</h1>")
+// for (var i = 2; i <= 20; i+=2) {
+//     document.write(i + "k,")
+// }
+
+// Exercise 7
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var order = prompt("Welcome to ABC bakery. What do you want to order?");
+// var itemFound = false;
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] === order) {
+//         document.write(arr[i] + " is available at index " + i + " in our bakery");
+//         itemFound = true;
+//         break;
+//     }
+// }
+// if (itemFound === false) {
+//     document.write("We are sorry. " + order + " is not available in our bakery");
+// }
+
+// Exercise 8
+// var arr = [22, 33, 55, 33, 90];
+// var largestNum = 0;
+// for (var i = 0; i < arr.length; i++) {
+//     if (largestNum < arr[i]) {
+//         largestNum = arr[i];
+//     }
+// }
+// document.write("Array numbers: " + arr);
+// document.write("<br /> The largest number is " + largestNum);
+
+// Exercise 9
+// var arr = [22, 43, 34, 21, 17, 50];
+// var smallestNum = 43;
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] < smallestNum) {
+//         smallestNum = arr[i]
+//     }
+// }
+// document.write("Array numbers: " + arr);
+// document.write("<br /> The smallest number is " + smallestNum);
+
+// // Exercise 10
+// for (var i = 1; i <= 20; i++) {
+//     document.write(i * 5 + ",");
+// }
