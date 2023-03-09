@@ -62,3 +62,32 @@
 // document.write("Number: " + num + "<br /> Result: " + updatedStr);
 
 // // // // Exercise 13
+// var Name = prompt("Enter your name?");
+// var char33 = "!";
+// var char44 = ",";
+// var char46 = ".";
+// var char64 = "@";
+// for (var i = 0; i < Name.length; i++) {
+//     if (Name[i] === char33 || Name[i] === char44 || Name[i] === char46 || Name[i] === char64) {
+//         alert("Please enter a valid username");
+//     }
+// }
+
+// // // Exercise 14
+// var order = prompt("Welcome to ABC bakery what would you like to order sir/ma'am");
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// for (var i = 0; i < order.length; i++) {
+//     for (var j = 0; j < arr.length; j++) {
+//         if (order === arr[j]) {
+//             document.write(order + " is available at index " + [j] + " in our bakery");
+//             break;
+//         }
+//         else {
+//             document.write("We are sorry " + order + " is not available in our bakery");
+//             break;
+//         }
+//     }
+//     break;
+// }
+
+// // // // Exercise 15
