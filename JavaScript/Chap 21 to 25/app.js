@@ -63,13 +63,12 @@
 
 // // // // Exercise 13
 // var Name = prompt("Enter your name?");
-// var char33 = "!";
-// var char44 = ",";
-// var char46 = ".";
-// var char64 = "@";
+// var char;
 // for (var i = 0; i < Name.length; i++) {
-//     if (Name[i] === char33 || Name[i] === char44 || Name[i] === char46 || Name[i] === char64) {
+//     char = Name[i].charCodeAt();
+//     if (char == 33 || char == 44 || char == 46 || char === 64) {
 //         alert("Please enter a valid username");
+//         break;
 //     }
 // }
 
