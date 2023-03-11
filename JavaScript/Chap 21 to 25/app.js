@@ -90,4 +90,63 @@
 //     break;
 // }
 
-// // // // Exercise 15
+// // // // // Exercise 15
+// var pass = prompt("Enter a password");
+// var checkForAlpha;
+// var checkForNumber;
+// var hasAlpha = false;
+// var hasNumber = false;
+// var hasLength = false;
+// var firstCharacter = true;
+// for (var i = 0; i < pass.length; i++) {
+//     checkForAlpha = pass[i].charCodeAt();
+//     checkForNumber = pass[i].charCodeAt();
+//     if (pass[0] >= 0) {
+//         firstCharacter = false;
+//     }
+//     if (checkForAlpha >= 65 && checkForAlpha <= 122) {
+//         hasAlpha = true;
+//     }
+//     if (checkForNumber >= 48 && checkForNumber <= 57) {
+//         hasNumber = true;
+//     }
+//     if (pass.length >= 6) {
+//         hasLength = true;
+//     }
+// }
+// if (firstCharacter === false) {
+//     alert("Password can not begin with a number");
+// }
+// if ((hasAlpha === false || hasNumber === false) && firstCharacter === true) {
+//     alert("Password should contain alphabets and numbers");
+// }
+// if (hasLength === false) {
+//     if (hasAlpha === true && hasNumber === true && firstCharacter === true) {
+//         alert("Password must be at least 6 characters long");
+//      }
+// }
+// if (hasAlpha === true && hasNumber === true && hasLength === true && firstCharacter === true) {
+//     alert("Correct password");
+// }
+
+// // // // // Exercise 16
+// var university = "University of Karachi";
+// var split = university.split("");
+// for (var i = 0; i < split.length; i++) {
+//     document.write(split[i] + "<br />");
+// }
+
+// // // // // // Exercise 17
+// var input = prompt("Enter any thing");
+// document.write("User input: " + input + "<br /> Last character of input: " + input.charAt(input.length - 1));
+
+// // // // // // Exercise 18
+// var text = "The quick brown fox jumps over the lazy dog";
+// var word = "the";
+// var wordCount = 0;
+// for (var i = 0; i < text.length; i++) {
+//     if (text.slice(i, i + 3).toLocaleLowerCase() === word) {
+//         wordCount++;
+//     }
+// }
+// document.write("Text: " + text + "<br /> There are " + wordCount + " occurrences of word '" + word + "'" );
